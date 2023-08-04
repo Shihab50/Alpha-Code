@@ -131,7 +131,38 @@ body {
   font-size: 18px;
 }
 
-/* Discount part CSs */
+/* Flower info part CSS */
+
+.flower-info-container {
+  display: flex;
+  height: 655px;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  margin: 40px 0;
+  background-color: #dcafef80;
+}
+.flower-1 {
+  height: 450px !important;
+}
+.flower-info-des {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.flower-info-img {
+  width: 300px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 22px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 1px 1px 22px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 22px 0px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+}
+.flower-info-img:hover {
+  transform: scale(1.08);
+}
+
+/* Discount part CSS */
 
 .discount-container {
   display: flex;
@@ -181,6 +212,7 @@ body {
 }
 
 /* Contact part CSS */
+
 .contact-container {
   width: 1233px;
   display: flex;
