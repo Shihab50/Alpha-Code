@@ -142,16 +142,18 @@ body {
   margin: 40px 0;
   background-color: #dcafef80;
 }
-.flower-1 {
+/* .flower-1 {
   height: 450px !important;
-}
+} */
 .flower-info-des {
   width: 200px;
   margin-top: 10px;
 }
-
-.flower-info-img {
+.flower {
   width: 300px;
+}
+.flower-info-img {
+  width: 100%;
   border-radius: 5px;
   -webkit-box-shadow: 1px 1px 22px 0px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 1px 1px 22px 0px rgba(0, 0, 0, 0.6);
